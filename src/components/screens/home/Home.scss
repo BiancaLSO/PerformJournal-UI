@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background: #8c8c9c;
+  justify-content: space-between;
+
+  &__title {
+    margin-right: 15px;
+  }
+
+  &__button,
+  [type="button"] {
+    height: 80px;
+    color: #2a2f33;
+    margin-right: 15px;
+  }
+}
+
+.main {
+  text-decoration-color: #2a2f33;
+  background: white;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
